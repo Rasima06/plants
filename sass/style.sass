@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap')
+@font-face 
+    font-family: 'Inika'
+    src: url('../fonts/Inika-Regular.ttf')
+
+*, ::after, ::before
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    font-family: 'Inter', sans-serif
+
+.container-body
+    max-width: 1440px
+    margin: 0 auto
+
+.header
+    font-family: 'Inika'
+    display: flex
+    background-color: #EDF2EC
+    height: 134px
+    &__logo
+        display: flex
+        img
+            margin-left: 111px
+            width: 20px
+            height: 100%
+
+h1
+    font-size: 16px
+    color: black
+    margin-top: 56px
+    margin-right: 689px
+    
+.nav-menu
+    display: flex
+    height: 100%
+    align-items: center
+    &__item
+        margin-right: 46px
+    &__item:last-child
+        margin-right: 0  
+    li
+        list-style-type: none
+    a
+        text-decoration: none
+        font-size: 16px
+        color: black
+
+.container-welcome
+    position: relative
+    display: flex
+    min-height: 532px
+    background-color: #EDF2EC
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+
+.left-wrapper
+    width: 448.8px
+    height: 407.36px
+    margin-top: 62px
+    margin-right: 224px
+    &__leaf1
+        position: absolute
+        width: 81.23px
+        height: 60.89px
+        top: 173px
+        left: 367px
+        filter: blur(4.5px)
+        transform: matrix(-0.81, -0.56, 0.61, -0.81, 0, 0)
+    &__leaf2
+        position: absolute
+        width: 245.31px
+        height: 177.84px
+        top: 62px
+        left: 128px
+        filter: blur(4.5px)
+        transform: matrix(0.99, -0.12, 0.13, 0.99, 0, 0)
+    &__leaf3
+        position: absolute
+        width: 163.49px
+        height: 141.86px
+        top: 260.6px
+        left: 211px
+        filter: blur(3.5px)
+        transform: matrix(0.51, -0.84, 0.89, 0.49, 0, 0)
+    &__leaf4
+        position: absolute
+        width: 80.33px
+        height: 61.57px
+        top: 262.66px
+        left: 109px
+        filter: blur(4.5px)
+        transform: matrix(-0.63, 0.75, -0.81, -0.62, 0, 0)
+    &__leaf5
+        position: absolute
+        width: 120.93px
+        height: 77.01px
+        top: 315px
+        left: 419.12px
+        filter: blur(2px)
+        transform: matrix(-0.96, -0.26, 0.29, -0.96, 0, 0)
+
+.right-wrapper
+    width: 549px
+    height: 340px
+    margin-right: 109px
+    margin-top: 62px
+    &__text
+        font-style: normal
+        font-weight: 400
+        font-size: 20px
+        line-height: 35px
+        color: #636060
+        margin-bottom: 48px
+
+.title-h2
+    font-style: normal
+    font-weight: 700
+    font-size: 45px
+    line-height: 50px
+    color: #717171
+    margin-bottom: 42px
+    span
+        color: #499A18
+
+.button
+    &__main-btn
+        width: 158px
+        height: 44px
+        background: #EDF2EC
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border: 2px solid #E06733
+        border-radius: 10px
+        font-size: 16px
+
+.container-about
+    min-height: 666px
+    display: flex
+    align-items: center
+    &__left-wrapper
+        width: 605px
+        height: 350px
+        margin-left: 109px
+        margin-right: 153px
+        
+
+.title-h3
+    color: #499A18
+    font-family: 'Inika'
+    font-style: normal
+    font-weight: 400
+    font-size: 40px
+    line-height: 52px
+    margin-bottom: 40px
+    margin-right: 153px
+    span
+        color: #E06733
+
+.text
+    font-style: normal
+    font-weight: 400
+    font-size: 20px
+    line-height: 30px
+    color: #636060
+
+.service
+    position: relative
+    min-height: 1300px
+    background-color: #EDF2EC
+
+.buttons
+    margin-top: 69px
+
+.first-container
+    display: flex
+
+.h3-title
+    color: #499A18
+    font-family: 'Inika'
+    font-style: normal
+    font-weight: 400
+    font-size: 40px
+    line-height: 52px
+    display: block
+    width: 306px
+    height: 94px
+    margin-top: 40px 
+    margin-bottom: 90px
+    margin-right: 142px
+    margin-left: 109px
+
+
+.button-btn
+        width: 161px
+        height: 50px
+        border: 1px solid #E06733
+        border-radius: 5px
+        font-size: 20px
+        font-family: 'Inika'
+        color: #E06733
+        margin-right: 38px
+        background-color: #EDF2EC
+        &:last-child
+            margin-right: 0
+    
+.cards
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+.container-card
+    margin-right: 115px
+    margin-bottom: 55px
+    &:nth-child(3n)
+        margin-right: 0px
+        
+        
+
+
+.img1
+    width: 329px
+    height: 350px
+    border-radius: 20px 20px 0px 0px
+    background-image: url('../img/1фото.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    
+.img2
+    width: 329px
+    height: 350px
+    border-radius: 20px 20px 0px 0px
+    background-image: url('../img/2фото.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+
+.img3
+    width: 329px
+    height: 350px
+    border-radius: 20px 20px 0px 0px
+    background-image: url('../img/3фото.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+
+.img4
+    width: 329px
+    height: 350px
+    border-radius: 20px 20px 0px 0px
+    background-image: url('../img/4фото.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+
+.img5
+    width: 329px
+    height: 350px
+    border-radius: 20px 20px 0px 0px
+    background-image: url('../img/5фото.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+
+.img6
+    width: 329px
+    height: 350px
+    border-radius: 20px 20px 0px 0px
+    background-image: url('../img/6фото.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+
+.card
+    width: 330px
+    height: 100px
+    border: 1px solid #E3E1D5
+    border-radius: 0px 0px 20px 20px
+    margin-top: 0
+    &__title
+        font-weight: 700
+        font-size: 20px
+        line-height: 20px
+        color: #E06733
+        margin-top: 10px
+        margin-bottom: 10px
+        text-align: center
+    &__text
+        font-weight: 400
+        font-size: 16px
+        line-height: 20px
+        color: #717171
+        margin-bottom: 36px
+        text-align: center
+
+.prices
+    height: 540px
+    display: flex
+
+.container-prices
+    height: 391.01px
+    width: 332px
+    margin-top: 40px
+    margin-right: 438px
+    margin-left: 109px
+    h4
+        font-weight: 700
+        font-size: 40px
+        line-height: 50px
+        color: #000000
+        margin-bottom: 60px
+
+.gardener-contact
+    margin-top: 40px
+    h4
+        font-weight: 700
+        font-size: 40px
+        line-height: 50px
+        color: #000000
+        text-align: right
+        span
+            color: #499A18
+
+.btn-container
+    display: flex
+    justify-content: right
+    margin-top: 38px
+    .contact-btn
+        width: 162px
+        height: 50px
+        border: 1px solid #E06733
+        border-radius: 5px
+        font-size: 20px
+        font-family: 'Inika'
+        font-weight: 700
+        color: #E06733
+        text-align: center
+        line-height: 26px
+        background-color: #fff
+
+.contact-leaf
+    position: relative
+    margin-top: 39px
+    height: 175px
+    width: 152px
+
+.line
+    width: 164px
+    height: 0px
+    border: 0.5px solid #AEA1A1
+
+.accordion
+    &__item
+        width: 250px
+        height: 50px
+        background: #EDF2EC
+        border-radius: 20px
+        cursor: pointer
+    &__title
+        font-weight: 700
+        font-size: 20px
+        line-height: 20px
+        color: #000000
+    &__text
+        font-weight: 300
+        font-size: 10px
+        line-height: 10px
+        color: #717171
+        margin-bottom: 6px
+    &__price
+        font-weight: 400
+        font-size: 12px
+        line-height: 20px
+        color: #000000
+        margin-bottom: 12px
+        span
+            font-weight: 700
+            font-size: 16px
+            line-height: 20px
+            color: #E06733
+    &__btn
+        width: 86px
+        height: 25px
+        background: #FFFFFF
+        border-color: #FFFFFF
+        border-radius: 10px
+        font-size: 14px
+        line-height: 20px
+        color: #717171
+
+.contacts
+    height: 550px
+    background: #EDF2EC
+    display: flex
+    
+
+.woman
+    margin-top: 53px
+    margin-right: 113px
+    margin-left: 109px
+
+.contacts-text
+    margin-top: 60px
+    font-family: 'Inika'
+    font-weight: 700
+    font-size: 40px
+    line-height: 52px
+    color: #499A18
+    margin-right: 64px
+
+select
+    background: #D6E7D2
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    border: none
+    appearance: none
+    outline: none
+    font-family: 'Inter'
+    font-weight: 400
+    font-size: 20px
+    line-height: 40px
+    letter-spacing: 0.05em
+    color: #717171
+    padding: 5px 226px 5px 20px
+    cursor: pointer
+
+select:focus
+    outline: none
+    background: #C1E698
+    border: 1px solid #D6E7D2
+
+.select-wrapper
+    position: relative
+    height: 50px
+    width: 450px
+    margin-top: 148px
+
+.select-wrapper::before
+    content: ""
+    position: absolute
+    top: 50%
+    right: 51px
+    transform: translateY(-50%)
+    display: block
+    height: 16px
+    width: 16px
+    background: #AEA1A1
+    border-radius: 10px
+    pointer-events: none
+
+
+.select-wrapper::after
+    content: url(../icon/arrow.svg)
+    position: absolute
+    top: 22.5%
+    right: 58px
+    display: block
+    width: 4px
+    height: 2.35px
+    pointer-events: none
+  
+
+
+.footer
+    display: flex
+    align-items: center
+    background-color: #FFFFFF
+    height: 130px
+
+a
+    text-decoration: none
+    color: black
+
+.github
+    margin-left: 109px
+    margin-right: 324px 
+    display: flex
+    p
+        font-weight: 400
+        font-size: 20px
+        line-height: 50px
+        margin-right: 20px
+        &:last-child
+            margin-right: 0
+        a
+            text-decoration: none
+            color: black
+
+.icon
+    a
+        margin-right: 20px
+        &:last-child
+            margin-right: 0
+
+.school
+    font-weight: 400
+    font-size: 20px
+    line-height: 50px
+    margin-right: 317px
+    a
+        text-decoration: none
+        color: black
+
+
+ 
+        
