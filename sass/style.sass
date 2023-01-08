@@ -215,8 +215,6 @@ h1
     &:nth-child(3n)
         margin-right: 0px
         
-        
-
 
 .img1
     width: 329px
@@ -305,6 +303,53 @@ h1
         color: #000000
         margin-bottom: 60px
 
+.container-accordion
+    height: 214.01px
+    width: 250px
+   
+
+.accordion
+    &__item
+        width: 250px
+        height: 50px
+        margin-bottom: 50px
+        background: #EDF2EC
+        cursor: pointer
+        border-radius: 20px
+    &__title
+        font-weight: 700
+        font-size: 20px
+        line-height: 20px
+        color: #000
+        margin-left: 80px
+        align-content: center
+    &__text
+        font-weight: 300
+        font-size: 10px
+        line-height: 10px
+        color: #717171
+        margin-bottom: 6px
+    &__price
+        font-weight: 400
+        font-size: 12px
+        line-height: 20px
+        color: #000000
+        margin-bottom: 12px
+        span
+            font-weight: 700
+            font-size: 16px
+            line-height: 20px
+            color: #E06733
+    &__btn
+        width: 86px
+        height: 25px
+        background: #FFFFFF
+        border-color: #FFFFFF
+        border-radius: 10px
+        font-size: 14px
+        line-height: 20px
+        color: #717171
+
 .gardener-contact
     margin-top: 40px
     h4
@@ -333,6 +378,11 @@ h1
         line-height: 26px
         background-color: #fff
 
+summary
+    .accordion__title
+        ::marker
+            display: none
+
 .contact-leaf
     position: relative
     margin-top: 39px
@@ -344,44 +394,8 @@ h1
     height: 0px
     border: 0.5px solid #AEA1A1
 
-.accordion
-    &__item
-        width: 250px
-        height: 50px
-        background: #EDF2EC
-        border-radius: 20px
-        cursor: pointer
-    &__title
-        font-weight: 700
-        font-size: 20px
-        line-height: 20px
-        color: #000000
-    &__text
-        font-weight: 300
-        font-size: 10px
-        line-height: 10px
-        color: #717171
-        margin-bottom: 6px
-    &__price
-        font-weight: 400
-        font-size: 12px
-        line-height: 20px
-        color: #000000
-        margin-bottom: 12px
-        span
-            font-weight: 700
-            font-size: 16px
-            line-height: 20px
-            color: #E06733
-    &__btn
-        width: 86px
-        height: 25px
-        background: #FFFFFF
-        border-color: #FFFFFF
-        border-radius: 10px
-        font-size: 14px
-        line-height: 20px
-        color: #717171
+
+
 
 .contacts
     height: 550px
