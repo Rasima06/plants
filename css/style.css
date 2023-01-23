@@ -427,16 +427,20 @@ summary .accordion__title ::marker {
   border: 0.5px solid #AEA1A1;
 }
 
-.contacts {
-  height: 550px;
+.container-contacts {
   background: #EDF2EC;
+}
+
+.contacts {
+  max-width: 1221px;
+  margin: 0px auto;
+  height: 550px;
   display: flex;
 }
 
 .woman {
   margin-top: 53px;
-  margin-right: 113px;
-  margin-left: 109px;
+  margin-right: 110px;
 }
 
 .contacts-text {
@@ -446,6 +450,7 @@ summary .accordion__title ::marker {
   font-size: 40px;
   line-height: 52px;
   color: #499A18;
+  white-space: nowrap;
   margin-right: 64px;
 }
 
@@ -503,10 +508,15 @@ select:focus {
   pointer-events: none;
 }
 
+.footer-container {
+  background-color: #FFFFFF;
+}
+
 .footer {
+  max-width: 1221px;
+  margin: 0px auto;
   display: flex;
   align-items: center;
-  background-color: #FFFFFF;
   height: 130px;
 }
 
@@ -516,7 +526,6 @@ a {
 }
 
 .github {
-  margin-left: 109px;
   margin-right: 324px;
   display: flex;
 }
